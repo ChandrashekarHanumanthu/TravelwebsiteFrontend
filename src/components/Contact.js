@@ -25,7 +25,7 @@ const Contact = () => {
         setSubmitError('');
 
         try {
-            const response = await fetch('http://localhost:8080/contactus', {
+            const response = await fetch('https://travelwebsitebackend-3.onrender.com/contactus', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

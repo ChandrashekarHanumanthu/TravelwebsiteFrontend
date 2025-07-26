@@ -5,7 +5,7 @@ const Hotpicks = () => {
   const [hotpicks, setHotpicks] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8080/hotpicks')
+    fetch('https://travelwebsitebackend-3.onrender.com/hotpicks')
       .then(response => response.json())
       .then(data => setHotpicks(data))
       .catch(error => console.error('Error fetching hotpicks:', error));

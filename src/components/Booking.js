@@ -26,7 +26,7 @@ const Booking = () => {
     };
     
     try {
-      const response = await fetch('http://localhost:8080/bookings', {
+      const response = await fetch('https://travelwebsitebackend-3.onrender.com/bookings', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
