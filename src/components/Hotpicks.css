@@ -1,0 +1,75 @@
+.hot-container {
+    margin-top: 50px;
+}
+
+.hotpicks-title {
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .hotpicks-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:50px;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .hotpicks-container .hotpick-card {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hotpicks-container .hotpick-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .hotpicks-container .hotpick-info {
+    width: 100%;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: left;
+  }
+  
+  .hotpicks-container .hotpick-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hotpicks-container .hotpick-info p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  
+  h2.hotpicks-title, 
+  p {
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .hotpicks-title {
+    color: red;
+  }
+
+  .hot-name {
+    font-size: 16px;
+    font-family:"Roboto" ;
+  }
+
+  .hot-price {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 8px;
+  }

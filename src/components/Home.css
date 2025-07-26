@@ -1,0 +1,37 @@
+.home {
+    text-align: center;
+    margin:10px;
+  }
+  
+  .hero-section {
+    background-image: url('https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?cs=srgb&dl=pexels-stywo-1054218.jpg&fm=jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    color: white;
+    height: 80vh;
+    padding: 20px;
+  }
+  
+  .hero-text {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem; 
+    text-align: center;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
